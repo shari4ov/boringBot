@@ -8,6 +8,7 @@ document.querySelector('.btn').addEventListener('click',function(){
               document.querySelector('h1').textContent = '🦾FunnyBot🦿';
               document.querySelector('.botCntnr').classList.add('funBack');
               document.querySelector('.btn').classList.remove('btn-danger')
+              document.querySelector('h4').classList.add('funSize');
               document.querySelector('.btn').classList.add('funBtn')
               document.querySelector('.botTxt').textContent = data.activity;
        })

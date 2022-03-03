@@ -47,6 +47,10 @@ background: -webkit-linear-gradient(to left, #f05053, #e1eec3);  /* Chrome 10-25
 
 
 }
+.funSize{
+       font-size: 3em;
+       font-weight: 900;
+}
 
 @media (max-width:500px) {
        .btn{
